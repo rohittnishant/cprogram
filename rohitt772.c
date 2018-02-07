@@ -2,15 +2,15 @@
 
 void main()
 {
-    int a,b,g;
+    int a,b,t;
     
-    scanf("%d %d %d",&a,&b,&g);
+    scanf("%d %d %d",&a,&b,&t);
     
-    if(a>b&&a>g){
+    if(a>b&&a>t){
         printf("%d",a);
-    }else if(b>g&&b>a){
+    }else if(b>t&&b>a){
         printf("%d",b);
     }else {
-        printf("%d",g);
+        printf("%d",t);
     }
 }
